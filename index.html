@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-USA">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 <body class="w3-light-gray">
 
 <div class="w3-top w3-blue">
-	<a href="javascript:void(0)" id="myButton" class="w3-bar-item w3-button w3-padding-16 w3-hover-light-blue w3-right w3-hide-large" style="width: 50px" onclick="myMenu()">&#9883</a>
+	<a href="javascript:void(0)" id="myButton" class="w3-bar-item w3-button w3-padding-16 w3-hover-light-blue w3-right w3-hide-large" style="width: 50px" onclick="myMenu()">&#9883;</a>
 <div class="w3-bar w3-blue" style="text-align: center; width: 5%; min-width: 250px; margin: auto;">
 	<a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hover-light-blue w3-hide-small w3-hide-medium">Astro</a>
 	<a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hover-light-blue w3-hide-small w3-hide-medium">Svelte</a>
@@ -84,10 +84,10 @@ function myMenu() {
   var x = document.getElementById("mySidebar");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-	document.getElementById("myButton").innerHTML = "&times";
+	document.getElementById("myButton").innerHTML = "&times;";
   } else {
     x.className = x.className.replace(" w3-show", "");
-	document.getElementById("myButton").innerHTML = "&#9883";
+	document.getElementById("myButton").innerHTML = "&#9883;";
   }
 }
 </script>
